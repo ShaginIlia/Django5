@@ -1,0 +1,20 @@
+<{% extends "menu.html" %}
+
+{% block header %}
+    <h1>Игры</h1>
+{% endblock %}
+
+{% block menu %}
+<p><button><a href="/">Главная</a></button></p>
+<p><button><a href="/games/">Магазин</a></button></p>
+<p><button><a href="/cart/">Корзина</a></button></p>
+{% endblock %}
+
+{% block content %}
+        <h2>Доступные игры</h2>
+        <ul>
+            <li>Spider-Man <button>Купить</button></li>
+            <li>Hogwarts Legacy <button>Купить</button></li>
+            <li>Star Wars: Survival <button>Купить</button></li>
+        </ul>
+{% endblock %}
